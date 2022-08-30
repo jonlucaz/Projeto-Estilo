@@ -1,0 +1,19 @@
+* {
+  background-color: darkslategray;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.allcontainer {
+  background-color: darkslategray;
+  min-height: 100vh;
+}
+
+.container1 {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  background-color: whitesmoke;
+  font-size: 20px;
+}
