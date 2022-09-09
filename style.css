@@ -1,5 +1,5 @@
 * {
-  background-color: darkslategray;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,12 +8,46 @@
 .allcontainer {
   background-color: darkslategray;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container1 {
-  width: 200px;
-  height: 200px;
-  border: 2px solid black;
+  width: 80%;
+  height: 400px;
   background-color: whitesmoke;
-  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  gap: 8px 15px;
+}
+
+.botao {
+  font-size: 15px;
+  padding: 8px;
+  background-color: transparent;
+  border: 2px solid darkslateblue;
+  color: darkslateblue;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-bottom: 50px;
+}
+
+.botao:hover {
+  border: 2px solid whitesmoke;
+  background-color: darkslateblue;
+  color: whitesmoke;
+}
+
+h3 {
+  font-family: poppins;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: center;
+  color: darkslateblue;
+  margin-bottom: 50px;
 }
